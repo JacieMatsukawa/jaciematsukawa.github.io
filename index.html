@@ -1,9 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+.button{
+  border: none;
+  color: none;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: poppins; sans-serif;
+  float: left;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #f4acb7;
+  color: #ffffff;
+  border: none;
+}
+
+.button1:hover {
+  background-color: #f4acb7;
+  color: #412249;
+  
+  </style>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width">
-      <title>Portfolio site template</title>
+      <title>Jacie Matsukawa Professional Website</title>
       <link href="style.css" rel="stylesheet" type="text/css" />
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
       <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/220px-Repl.it_logo.png">
@@ -41,7 +68,7 @@
 		 <section class="intro">
 		  <h3 style="font-size:75px;">Jacie Matsukawa<hr></h3>
 		  <p style="font-size:30px">Certified Meeting Professional</p>
-		  <!--<h4>Performance-driven, detail-oriented, and reliable self-starter.</h4>-->
+		  <p style="font-size:20px">Performance-driven, detail-oriented, and reliable self-starter.</p>
 			  
 		  <!--────social media links─────-->
 			 
@@ -57,14 +84,24 @@
 	  </div>  
 		
 	  <!--───────────────Projects───────────────-->
-	  <div id="projects"> 
+  <div id="projects">
+  <div class="grid">
 		 <h3>About<hr></h3>
-		  <p>Performance-driven, detail-oriented, and reliable self-starter.</p>
+		  <p style="font-size:22px">Jacie Matsukawa is a Certified Meeting Professional based in Honolulu.</p>
 		  <div class="work-box">
+      <div class="row">
 		  <div class="work">
+      <div class="col-2">
 		<!--───────────────card───────────────-->
-			<div class="card">
-			    <img class="work-img" src="assets/JacieMatsukawa.jpg">
+			<p style="font-size:15px; text-align:left; padding:10px;"><img src="assets/JacieMatsukawa.jpg" alt="Jacie Matsukawa" style="float:left;width:375px;height:550px;padding:0px 30px 0px 5px;">By day, Jacie works as a meetings and events manager for the Pacific Telecommunications Council (PTC). In her role, she coordinates logistics for in-person, virtual, and hybrid conferences and events as well as oversees the organization’s annual conference program and stage management. In addition, Jacie administers and implements all aspects of the accreditation process for the PTC Academy online training courses.</p>
+
+  <p style="font-size:15px; text-align:left; padding:15px;">Outside of work, Jacie enjoys staying active from running to hiking to yoga to paddleboarding to long walks in the park; escaping to nature; spending time with family, friends, and pets; traveling to new places and creating new experiences; growing her plant collection; experimenting in the kitchen and sharing a meal; service to others; and finding different ways to keep her mind happy and focused in the present.</p>
+        <a class="button button1" href="https://www.google.com/" role="button">Get in Touch</a>
+ <!--<button class="button button1">Get in Touch</button>-->
+      </div>
+        
+        <div class="none">
+			    <!--<img class="work-img" src="assets/JacieMatsukawa.jpg">-->
 			    <!--<a href="" target="_blank"> <!--Link to project-->
 				<!--<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
             </div>
