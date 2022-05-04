@@ -180,10 +180,10 @@ a.nav-link{
 }
 
 /*──────────────────
-      projects
+      about
 ──────────────────*/
 
-#projects{
+#about{
 	margin-top:100px;
     height: 100%;
 	display: flex;
@@ -193,10 +193,10 @@ a.nav-link{
 	text-align: center;
 	color: var(--main-fonts-color);
 }
-#projects h3{
+#about h3{
     padding-top: 70px;
 }
-#projects p{
+#about p{
 	font-family: var(--main-font-family);
 	font-size:1.2rem;
 	padding: 10px;
@@ -397,7 +397,7 @@ hr {
 
 @media only screen and (max-width: 500px) {
 
-	#home, #projects, #contact{
+	#home, #about, #contact{
         overflow-x: hidden;
 	}
 	header{
